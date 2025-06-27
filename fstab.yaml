@@ -8,7 +8,7 @@ mountpoints:
       type: "markup"
       suffix: ".html"
       condition: env == 'prod'
-  /sharepoint/:
-    url: "https://centurylink.sharepoint.com/sites/MktglumenBlog/Shared%20Documents/website"
-    type: "onedrive"
+  /google/:
+    url: "https://drive.google.com/drive/folders/1r9289WLzB3s3xeKrQjYyaVBNO8UY5ze3"
+    type: "google"
     suffix: ".docx"
