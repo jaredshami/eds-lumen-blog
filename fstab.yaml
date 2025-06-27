@@ -1,2 +1,14 @@
 mountpoints:
-  /: https://author-p145612-e1665784.adobeaemcloud.com/bin/franklin.delivery/jaredshami/eds-lumen-blog/dev
+  /:
+    - url: "https://author-p145612-e1665784.adobeaemcloud.com/bin/franklin.delivery/jaredshami/eds-lumen-blog/dev"
+      type: "markup"
+      suffix: ".html"
+      condition: env == 'dev'
+    - url: "https://author-p145612-e1509602.adobeaemcloud.com/bin/franklin.delivery/jaredshami/eds-lumen-blog/main"
+      type: "markup"
+      suffix: ".html"
+      condition: env == 'prod'
+  /google/:
+    url: "https://drive.google.com/drive/folders/1r9289WLzB3s3xeKrQjYyaVBNO8UY5ze3"
+    type: "google"
+    suffix: ".docx"
