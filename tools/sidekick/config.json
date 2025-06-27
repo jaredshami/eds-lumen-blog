@@ -1,5 +1,13 @@
 {
-  "project": "AEM XWalk Boilerplate",
+  "project": "Lumen Blog",
   "editUrlLabel": "AEM Editor",
-  "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open"
+  "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open",
+  "env": {
+    "dev": {
+      "host": "author-p145612-e1665784.adobeaemcloud.com"
+    },
+    "prod": {
+      "host": "author-p145612-e1509602.adobeaemcloud.com"
+    }
+  }
 }
