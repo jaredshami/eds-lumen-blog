@@ -1,5 +1,2 @@
 mountpoints:
-  /:
-    - url: "https://author-p145612-e1665784.adobeaemcloud.com/bin/franklin.delivery/jaredshami/eds-lumen-blog/dev"
-      type: "markup"
-      suffix: ".html"
+  /: https://author-p145612-e1665784.adobeaemcloud.com/bin/franklin.delivery/jaredshami/eds-lumen-blog/dev
