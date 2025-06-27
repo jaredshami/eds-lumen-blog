@@ -11,4 +11,4 @@ mountpoints:
   /google/:
     url: "https://drive.google.com/drive/folders/1r9289WLzB3s3xeKrQjYyaVBNO8UY5ze3"
     type: "google"
-    suffix: ".docx"
+    suffix: ".doc"
